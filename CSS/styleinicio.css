@@ -1,0 +1,21 @@
+main {
+  grid-row: 3; }
+  main .cuerpo h2 {
+    text-align: center; }
+  main .cuerpo .product .navi {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+    main .cuerpo .product .navi li {
+      display: grid;
+      grid-column: 3;
+      grid-template-rows: 2;
+      border-image: solid;
+      text-align: center;
+      justify-content: space-between;
+      border: solid black 1px; }
+    main .cuerpo .product .navi a {
+      text-decoration: none;
+      color: black; }

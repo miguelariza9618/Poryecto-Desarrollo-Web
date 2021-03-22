@@ -1,0 +1,35 @@
+main{
+    grid-row: 3;
+    .cuerpo{
+        h2{
+            
+            text-align: center;
+        }
+        .product{
+            margin-top: 15%;
+            .navi{
+                display: inline-flex;
+                flex-direction: row;
+                font-size: 25px;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                
+                li{
+                    display: grid;
+                    grid-column: 3;
+                    grid-template-rows: 2;
+                    border-image: solid;
+                    text-align: center;
+                    justify-content: space-around;
+                    border: solid black 1px;
+                    justify-items: center;
+                    
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

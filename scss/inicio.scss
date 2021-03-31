@@ -1,6 +1,10 @@
 main{
     grid-row: 3;
     .cuerpo{
+
+        display: grid;
+        grid-column: 30% 30% 30%;
+        
         h2{
             
             text-align: center;

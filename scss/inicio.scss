@@ -4,6 +4,8 @@ main{
 
         display: grid;
         grid-column: 30% 30% 30%;
+        justify-content: space-between;
+
         
         h2{
             
@@ -15,8 +17,9 @@ main{
                 display: inline-flex;
                 flex-direction: row;
                 font-size: 25px;
-                justify-content: space-between;
+                justify-content: space-around;
                 flex-wrap: nowrap;
+                width: 100%;
                 
                 li{
                     display: grid;
@@ -24,9 +27,9 @@ main{
                     grid-template-rows: 2;
                     border-image: solid;
                     text-align: center;
-                    justify-content: space-around;
+                    justify-content: space-between;
                     border: solid black 1px;
-                    justify-items: center;
+                    justify-items: stretch:
                     
                 }
                 a{
